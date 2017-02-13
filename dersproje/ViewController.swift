@@ -7,6 +7,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var segment: UISegmentedControl!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var label: UILabel!
+    var str = "merhaba"
     override func viewDidLoad() {
         super.viewDidLoad()
        label.text = "merhaba"
